@@ -1,0 +1,180 @@
+MATHEUS MOREIRA — NONA VERSÃO
+Estudos, Histórias da Física / Curiosidades
+
+ABRIR
+Extraia a pasta inteira do ZIP e abra index.html em um navegador moderno.
+Mantenha a pasta inteira, incluindo assets/questions. Não há instalação, biblioteca
+remota, fonte externa, servidor obrigatório ou autenticação.
+As aulas e simulações são locais. Somente os links de fontes exigem internet.
+
+NOVA ENTRADA
+A tela inicial tem o nome, a assinatura em latim e três caminhos:
+“O que você quer estudar hoje?”, “Histórias da Física / Curiosidades”
+e “Exercícios / Padrões da amostra”. Seis paletas estão disponíveis:
+Azul mineral, Oliva, Violeta profundo, Verde, Vermelho e Terra.
+A mudança de paleta percorre a tela da esquerda para a direita quando o navegador oferece
+o recurso; movimento reduzido troca as cores imediatamente. Modo claro
+e escuro permanecem independentes. As preferências ficam apenas no
+navegador, quando o armazenamento local estiver disponível.
+
+CONTEÚDO
+Exatamente três aulas: Hidrostática (12 etapas), Pascal e Arquimedes
+(11 etapas), Dilatação dos sólidos e líquidos (12 etapas).
+São 35 etapas, sete questões autorais internas e uma biblioteca com 18
+questões adaptadas da amostra, além de verificações
+conceituais com resposta revelável. As aulas incluem explicações ampliadas,
+exemplos resolvidos, hipóteses, unidades, limites dos modelos e erros comuns.
+Os capítulos guiados foram escritos para estudo autônomo: apresentam o
+sistema antes da fórmula, constroem o raciocínio, narram exemplos e terminam
+com um roteiro para resolver e conferir problemas semelhantes.
+Pascal, Arquimedes, temperatura e dilatação receberam uma segunda camada
+de explicação em tom de sala de aula, com frases diretas, contas devagar e
+avisos sobre erros comuns. As etapas anteriores repetidas foram substituídas,
+não acumuladas.
+
+EXERCÍCIOS E PADRÕES
+Os dois arquivos recebidos somam 32 questões originais: 10 de Hidrostática e
+22 de dilatação. O banco preserva enunciados, figuras, gabaritos e resoluções
+do material, embaralha somente a apresentação e mantém identificadores estáveis.
+Há filtros por assunto, instituição, dificuldade, tema e presença de figura.
+As contagens descrevem somente a amostra recebida e não a frequência geral.
+
+MAPAS DOS CAPÍTULOS
+Ao escolher uma aula, o site abre um fluxograma em post-its organizado em
+Orientação, Fundamentos, Construção e Prática e síntese. Cada post-it abre a
+etapa correspondente. Suas cores acompanham a paleta e o modo de leitura.
+
+RECURSOS DE LEITURA
+As linhas de raciocínio ficam ocultas e só serão usadas quando Matheus indicar necessidade. O botão de retorno aos post-its permanece
+visível, o modo leitura recolhe distrações e uma linha fina acompanha a
+rolagem. Roteiros de pensamento usam checkboxes e liberam a seta Próxima
+somente após a conferência; o índice pode pular a etapa sem essa trava.
+O explorador dimensional reúne dilatação linear, superficial e volumétrica
+no mesmo slide. As histórias do bloco 4 aparecem em páginas contínuas.
+Após exercícios, “Esse resultado faz sentido?” compara ordens de grandeza e
+leva à página local “Dê dimensão ao número”.
+Títulos objetivos; frases editoriais como subtítulos.
+Quatro experiências históricas/curiosidades, cada uma com três etapas:
+Torricelli; Arquimedes e Pascal; termoscópios; zero absoluto e física quântica.
+A área Exercícios apresenta padrões observados nas 32 questões enviadas,
+com filtros por assunto e tipo de raciocínio, contagem dinâmica, tamanho da
+amostra e limites metodológicos. Ela ainda não publica
+os enunciados e não substitui a futura biblioteca de resolução.
+As questões dos DOCX ainda não foram colocadas nos slides. Essa integração
+originou a biblioteca inicial do bloco 5; as sete questões internas das aulas
+continuam autorais do site.
+
+LABORATÓRIOS
+- Todos os laboratórios centrais relacionam controle, cálculo e efeito por
+  uma faixa de causa e consequência integrada aos resultados.
+- Profundidade: manômetro, pressões hidrostática e absoluta, compressão da
+  cápsula e marcação de uma leitura para comparar profundidade ou líquido.
+- Densidade: massa, volume, quociente, comparação com a água e três regimes
+  prontos para prever e testar: flutuação, equilíbrio e afundamento.
+- Pressão: deformação e ruptura de placa com limite fictício de 150 kPa.
+- Há cenários de chapa larga, apoio estreito e fio de faca, com analogias.
+- Pascal: circuito sempre conectado, razões 1:1, 5:1 e 20:1, variação de
+  pressão, força, percurso, volume deslocado e trabalho ideal.
+- Arquimedes: cenários de flutuação, equilíbrio e afundamento, peso,
+  empuxo, resultante e força de apoio no fundo.
+- Agitação: rede de partículas em canvas, Celsius/kelvin, pausa,
+  limite de 0 K e efeito “infinito” explicitamente fora do modelo.
+- Dilatação: comparação simultânea de aço, cobre e alumínio, com opção de
+  impedir a expansão e interpretar o esforço interno sem inventar tensão.
+- Dimensões: contornos antes/depois e expansão de um furo na placa.
+- Líquidos: expansão de capacidade e coleta do transbordamento.
+- Volumes: decomposição interativa da expansão real.
+- Água: gráfico aproximado de densidade e volume de uma massa fixa.
+
+As deformações são ampliadas e os movimentos esquemáticos, conforme
+explicado nas telas. A placa não prevê resistência estrutural real.
+O modo infinito não extrapola fórmulas para um resultado impossível.
+O zero absoluto é apresentado como limite ideal: não representa uma
+experiência de resfriamento bem-sucedida até 0 K. A curiosidade distingue
+a terceira lei termodinâmica do movimento quântico de ponto zero.
+
+NAVEGAÇÃO E ACESSIBILIDADE
+Anterior/Próxima navegam pelas etapas; o botão “Voltar aos post-its” retorna ao mapa e destaca a posição atual.
+Setas esquerda/direita: navegar fora dos campos de entrada.
+Home/End: primeira/última etapa. F: tela cheia quando disponível.
+Esc fecha diálogos. Tab e Enter/Espaço acessam as interações.
+Nas barras deslizantes, as setas ajustam o valor e Home/End vão aos limites.
+Em telas de toque, deslize fora dos controles para mudar de etapa.
+Role verticalmente para ler o aprofundamento abaixo do laboratório.
+Movimentos respeitam a preferência de redução de movimento do sistema.
+A rede de partículas também tem botão próprio de pausa.
+“Conheça a história” guarda a etapa de origem na memória da aba.
+“Retornar ao ponto da aula” volta a ela com os controles preservados.
+Respostas e controles são temporários; recarregar reinicia o estudo.
+
+REPORTAR ERRO
+Existe nas simulações, questões e verificações conceituais.
+Abre um aviso contextual explicando sua finalidade. Nenhum relato é
+enviado: esta versão não tem backend nem endereço de envio configurado.
+
+ARQUIVOS
+index.html: estrutura e diálogos.
+style.css: visual, temas, responsividade e transições.
+content.js: conteúdo editorial, exemplos, questões e fontes.
+simulations.js: laboratórios e animações.
+curriculum.js: sequência reconstruída do bloco 4 e histórias contínuas.
+upgrades.js: Hidrostática reconstruída, análise e biblioteca de exercícios.
+questions-original.js/json: dados extraídos dos dois arquivos Word.
+original-bank.js: filtros, recorrências, gabaritos e resoluções originais.
+flowmaps.js: mapas em post-its que antecedem cada aula.
+modes.js: definição dos modos Professor, Aluno e Estudar sozinho.
+mode-content.js: perguntas, sínteses “Ou seja” e manual pedagógico correspondente de cada etapa.
+pedagogy.js: habilidades, Teste-se, ajuda graduada, diagnóstico e relatório.
+magnitude.js: ferramenta interativa Dê dimensão ao número.
+learning.js: página Como se aprende aqui.
+app.js: navegação, temas, notação, acessibilidade e exercícios.
+LEIA-ME.txt: este guia.
+RELATORIO_DE_IMPLEMENTACAO.md: síntese desta entrega, limites e verificação.
+
+MATERIAIS CONSULTADOS
+Os cinco PDFs fornecidos foram consultados nos temas pertinentes como
+referência de estudo. Não foram incorporados os PDFs, suas imagens,
+exercícios de terceiros, marcas ou páginas reproduzidas. Os textos,
+exemplos adicionais e simulações foram escritos para esta plataforma.
+As fontes públicas de consulta aparecem nas experiências históricas.
+Para o zero absoluto: Masanes e Oppenheim (Nature Communications, 2017)
+e publicações do NIST sobre movimento de ponto zero.
+O gráfico da água usa a parcela de água pura da aproximação EOS-80,
+na faixa de 0 a 10 °C, com números arredondados para uso didático.
+
+LIMITES
+Sem login, banco de dados, anúncios, pagamentos ou IA conversacional.
+Nenhuma publicação externa foi feita. A proposta de sustentabilidade
+está em um documento separado e não altera o acesso ao site.
+
+REGRA EDITORIAL PARA NOVOS CAPÍTULOS
+Antes de implementar um capítulo novo, apresentar ao autor a lista de símbolos e nomenclaturas que serão usados e aguardar a correção dele. Para temperatura, usar T_C, T_K e T_F (com C, K e F em subscrito na interface). Para variações, usar ΔT_C, ΔT_K e ΔT_F. Não usar θ para representar temperatura Celsius.
+
+REGRAS DE ESTRUTURA
+- O mapa de post-its é a entrada do capítulo e o botão “Voltar aos post-its” deve permanecer visível dentro da aula.
+- Um roteiro de pensamento pertence ao exercício correspondente. Não criar uma página separada só para o roteiro.
+- “Entenda a linha de raciocínio” fica oculto por padrão e só volta quando o autor indicar uma situação em que ele seja realmente necessário.
+- Identificadores internos das questões nunca aparecem para o estudante.
+
+
+TRÊS MODOS DE USO
+Os três capítulos oferecem três entradas coordenadas: Apresentar como professor, Apresentar como aluno e Estudar sozinho. O modo Professor funciona como manual pedagógico, com objetivo, condução, resposta, lousa e conclusão esperada. O modo Aluno começa pela ação e mantém a explicação como consulta. O modo Autodidata une atividade, explicação completa, pista e síntese. O bloco “Ou seja” aparece nos três modos. Os modos são locais e independentes; o projeto não terá sincronização entre dispositivos.
+
+
+TESTE-SE E RELATÓRIO
+Cada capítulo possui um Teste-se com habilidades diferentes, ajuda gradual, diagnóstico determinístico e links de revisão para cenas específicas. O relatório descreve evidências da tentativa sem rotular o estudante.
+
+COMO SE APRENDE AQUI
+A página institucional explica o ciclo observar, prever, testar, pedir ajuda, compreender o erro e tentar novamente.
+
+DÊ DIMENSÃO AO NÚMERO
+A ferramenta converte volume, força, pressão e comprimento em unidades reconhecíveis, objetos de referência e comparações de escala para ajudar o estudante a julgar o próprio resultado.
+
+ATUALIZAÇÃO — CORREÇÕES DO BANCO E DOS MODOS
+- O modo Professor do Teste-se agora é um manual de avaliação: mostra resposta esperada, erros revelados, pistas e ponto da aula para retomar. O professor não é submetido ao diagnóstico do aluno.
+- A observação de Pascal ganhou o controle “Mostrar propagação da pressão”, com setas e pulsos até as paredes do fluido.
+- Peso aparente passou a usar P_ap = P - E; T permanece apenas como nome da tração no diagrama de forças.
+- O banco recuperou as tabelas da questão da porca/parafuso e da questão dos planetas.
+- Alternativas numéricas que estavam como imagens foram transcritas; alternativas realmente gráficas permanecem como imagens junto das letras.
+- A apresentação matemática aplica subscritos e sobrescritos, e códigos internos deixaram de aparecer para o estudante.
+- A arquitetura de produção está descrita em ARQUITETURA_DE_PRODUCAO.md.

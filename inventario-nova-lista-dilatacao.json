@@ -1,0 +1,17 @@
+{
+  "fonte": "dilatação térmica exercícios (1) (1).docx",
+  "estado": "inventariado; aguardando transcrição visual e homologação editorial",
+  "total": 10,
+  "questoes": [
+    {"numero":1,"origem":"Unicamp","tema":"dilatação linear negativa","recurso":"gráfico","estado":"alternativas em objetos gráficos"},
+    {"numero":2,"origem":"UFRGS","tema":"comparação de coeficientes lineares","recurso":"gráfico","estado":"alternativas em objetos gráficos"},
+    {"numero":3,"origem":"FAMERP","tema":"relação entre dilatação volumétrica e linear","recurso":"texto","estado":"alternativas em objetos gráficos"},
+    {"numero":4,"origem":"UEL","tema":"dilatação superficial de rebites","recurso":"cálculo","gabarito_material":"A","estado":"fórmulas em objetos gráficos"},
+    {"numero":5,"origem":"UEMA","tema":"contração volumétrica","recurso":"cálculo","estado":"fórmulas em objetos gráficos"},
+    {"numero":6,"origem":"Fuvest","tema":"lâmina bimetálica","recurso":"figuras nas alternativas","gabarito_material":"D","estado":"figuras mapeadas"},
+    {"numero":7,"origem":"ENEM PPL","tema":"porca e parafuso","recurso":"tirinha e tabela","gabarito_material":"C","estado":"figuras e tabela mapeadas"},
+    {"numero":8,"origem":"Mackenzie","tema":"dilatação superficial de um cubo","recurso":"cálculo","estado":"dados e alternativas em objetos gráficos"},
+    {"numero":9,"origem":"CPS","tema":"contração de cabos elétricos","recurso":"figura contextual","gabarito_material":"D","estado":"pronta para revisão editorial"},
+    {"numero":10,"origem":"PUCRS","tema":"coeficiente linear a partir de gráfico","recurso":"gráfico","gabarito_material":"E","estado":"alternativas em objetos gráficos"}
+  ]
+}

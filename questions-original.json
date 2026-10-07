@@ -1,0 +1,2314 @@
+[
+  {
+    "id": "HID-01",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 1,
+    "origem_declarada": "Enem/2025",
+    "id_banco_declarado": "263019",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Empilhamento de bebidas em laje",
+    "tema": "Pressão de contato",
+    "raciocinio": "Combinar massa, volume, área e altura",
+    "tipo_de_pratica": "Cálculo",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "C",
+    "pendencia": "Restaurar expoente 10⁴ Pa; não classificar como fluido em repouso apenas pela forma rho g h.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "C",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem) A laje de um depósito de bebidas tem 50 m2 de área útil de armazenamento e foi projetada para suportar pressões de até 104 Pa. O gerente do estabelecimento pretende armazenar um produto cuja densidade é 1250 kg/m3. Considere a aceleração da gravidade igual a 10 m/s2."
+      },
+      {
+        "type": "text",
+        "value": "A altura máxima, em metro, de empilhamento do produto que essa laje é capaz de suportar é"
+      },
+      {
+        "type": "text",
+        "value": "a)  0,16 m."
+      },
+      {
+        "type": "text",
+        "value": "b)  0,50 m."
+      },
+      {
+        "type": "text",
+        "value": "c)  0,80 m."
+      },
+      {
+        "type": "text",
+        "value": "d)  1,60 m."
+      },
+      {
+        "type": "text",
+        "value": "e)  8,00 m."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A altura máxima suportada é dada por:"
+      },
+      {
+        "type": "text",
+        "value": "P=FA=mgA=dVgA=dAhgA=dhg104=1250⋅h⋅10∴h=0,80 m"
+      }
+    ]
+  },
+  {
+    "id": "HID-02",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 2,
+    "origem_declarada": "Enem/2020",
+    "id_banco_declarado": "197244",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Mergulhador em bolsão de ar",
+    "tema": "Stevin",
+    "raciocinio": "Calcular diferença de pressão e ler gráfico",
+    "tipo_de_pratica": "Gráfico; cálculo",
+    "dependencia_visual": "Duas figuras essenciais",
+    "gabarito_no_material": "C",
+    "pendencia": "Distinguir profundidade vertical, percurso e pressão absoluta.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "C",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem)  Um mergulhador fica preso ao explorar uma caverna no oceano. Dentro da caverna formou-se um bolsão de ar, como mostrado na figura, onde o mergulhador se abrigou."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/hid-02-image2.png"
+      },
+      {
+        "type": "text",
+        "value": "Durante o resgate, para evitar danos a seu organismo, foi necessário que o mergulhador passasse por um processo de descompressão antes de retornar à superfície para que seu corpo ficasse novamente sob pressão atmosférica. O gráfico mostra a relação entre os tempos de descompressão recomendados para indivíduos nessa situação e a variação de pressão."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/hid-02-image3.png"
+      },
+      {
+        "type": "text",
+        "value": "Considere que a aceleração da gravidade seja igual a 10ms−2 e que a densidade da água seja de ρ=1000 kgm−3."
+      },
+      {
+        "type": "text",
+        "value": "Em minutos, qual é o tempo de descompressão a que o mergulhador deverá ser submetido?"
+      },
+      {
+        "type": "text",
+        "value": "a)   100"
+      },
+      {
+        "type": "text",
+        "value": "b)   80"
+      },
+      {
+        "type": "text",
+        "value": "c)   60"
+      },
+      {
+        "type": "text",
+        "value": "d)   40"
+      },
+      {
+        "type": "text",
+        "value": "e)   20"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A aumento de pressão a que ele foi submetido é devido a pressão da coluna líquida."
+      },
+      {
+        "type": "text",
+        "value": "Δp=ρgh⇒103×10×50⇒Δp=500×103⇒Δp=500kPa"
+      },
+      {
+        "type": "text",
+        "value": "No gráfico, para esse aumento de pressão, o tempo de descompressão é de 60 minutos."
+      }
+    ]
+  },
+  {
+    "id": "HID-03",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 3,
+    "origem_declarada": "Enem/2020",
+    "id_banco_declarado": "197245",
+    "dificuldade_declarada": "Média",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Modelo em escala da Torre Eiffel",
+    "tema": "Pressão de contato",
+    "raciocinio": "Relacionar escalas de área, volume e pressão",
+    "tipo_de_pratica": "Proporcionalidade",
+    "dependencia_visual": "Figura contextual",
+    "gabarito_no_material": "C",
+    "pendencia": "Restaurar expoentes nas alternativas e razões.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "C",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem) A Torre Eiffel, com seus 324 metros de altura, feita com treliças de ferro, pesava 7300 toneladas quando terminou de ser construída em 1889. Um arquiteto resolve construir um protótipo dessa torre em escala  1:100,  usando os mesmos materiais (cada dimensão linear em escala de 1:100 do monumento real)."
+      },
+      {
+        "type": "text",
+        "value": "Considere que a torre real tenha uma massa Mtorre e exerça na fundação sobre a qual foi erguida uma pressão Ptorre . O modelo construído pelo arquiteto terá uma massa Mmodelo e exercerá uma pressão Pmodelo ."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/hid-03-image4.png"
+      },
+      {
+        "type": "text",
+        "value": "Como a pressão exercida pela torre se compara com a pressão exercida pelo protótipo? Ou seja, qual é a razão entre as pressões Ptorre/Pmodelo?"
+      },
+      {
+        "type": "text",
+        "value": "a)  100"
+      },
+      {
+        "type": "text",
+        "value": "b)  101"
+      },
+      {
+        "type": "text",
+        "value": "c)  102"
+      },
+      {
+        "type": "text",
+        "value": "d)  104"
+      },
+      {
+        "type": "text",
+        "value": "e)  106"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Do enunciado:"
+      },
+      {
+        "type": "text",
+        "value": "LmodeloLtorre=1100."
+      },
+      {
+        "type": "text",
+        "value": "A área de apoio é diretamente proporcional ao quadrado das dimensões lineares e o volume é diretamente proporcional ao cubo das dimensões lineares."
+      },
+      {
+        "type": "text",
+        "value": "Assim:"
+      },
+      {
+        "type": "text",
+        "value": "AmodeloAtorre=1(100)2⇒AmodeloAtorre=1104VmodeloVtorre=1(100)3⇒VmodeloVtorre=1106"
+      },
+      {
+        "type": "text",
+        "value": "Da definição de pressão: P=mgA⇒P=ρ∨gA."
+      },
+      {
+        "type": "text",
+        "value": "Como a densidade (ρ) e a gravidade (g) não se alteram:"
+      },
+      {
+        "type": "text",
+        "value": "PtorrePmodelo=VtorreVmodelo×AmodeloAtone=106104⇒PtorrePmodelo=102"
+      }
+    ]
+  },
+  {
+    "id": "HID-04",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 4,
+    "origem_declarada": "Enem/2019",
+    "id_banco_declarado": "189702",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Pneus de duas bicicletas",
+    "tema": "Pressão e densidade",
+    "raciocinio": "Comparar pressões e massas pelas hipóteses dadas",
+    "tipo_de_pratica": "Conceitual",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "B",
+    "pendencia": "Preservar hipótese explícita de proporcionalidade entre massa e volume.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "B",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem) Dois amigos se encontram em um posto de gasolina para calibrar os pneus de suas bicicletas. Uma das bicicletas é de corrida (bicicleta  A)  e a outra, de passeio (bicicleta  B).  Os pneus de ambas as bicicletas têm as mesmas características, exceto que a largura dos pneus de A é menor que a largura dos pneus de  B.  Ao calibrarem os pneus das bicicletas A e  B,  respectivamente com pressões de calibração pA e pB, os amigos observam que o pneu da bicicleta A deforma, sob mesmos esforços, muito menos que o pneu da bicicleta  B.  Pode-se considerar que as massas de ar comprimido no pneu da bicicleta A, mA, e no pneu da bicicleta B,mB, são diretamente proporcionais aos seus volumes."
+      },
+      {
+        "type": "text",
+        "value": "Comparando as pressões e massas de ar comprimido nos pneus das bicicletas, temos:"
+      },
+      {
+        "type": "text",
+        "value": "a)  pA<pb e mA<mB"
+      },
+      {
+        "type": "text",
+        "value": "b)  pA>pb e mA<mB"
+      },
+      {
+        "type": "text",
+        "value": "c)  pA>pb e mA=mB"
+      },
+      {
+        "type": "text",
+        "value": "d)  pA<pb e mA=mB"
+      },
+      {
+        "type": "text",
+        "value": "e)  pA>pb e mA>mB"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Como o pneu da bicicleta  A  deforma, sob mesmos esforços, menos que o pneu da bicicleta  B,  podemos concluir que:"
+      },
+      {
+        "type": "text",
+        "value": "pA>pB"
+      },
+      {
+        "type": "text",
+        "value": "E como os pneus de ambas as bicicletas têm as mesmas características, mas com  A  sendo menos largo que  B,  e dado que o enunciado diz que as massas são diretamente proporcionais aos volumes, devemos ter que:"
+      },
+      {
+        "type": "text",
+        "value": "vA<vB⇒mA<mB"
+      }
+    ]
+  },
+  {
+    "id": "HID-05",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 5,
+    "origem_declarada": "Enem/2018",
+    "id_banco_declarado": "182102",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Dois canudos usados simultaneamente",
+    "tema": "Pressão atmosférica",
+    "raciocinio": "Explicar diferença de pressão",
+    "tipo_de_pratica": "Conceitual",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "E",
+    "pendencia": "Produzir resolução própria a partir da diferença de pressão.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "E",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem) Talvez você já tenha bebido suco usando dois canudinhos iguais. Entretanto, pode-se verificar que, se colocar um canudo imerso no suco e outro do lado de fora do líquido, fazendo a sucção simultaneamente em ambos, você terá dificuldade em bebê-lo."
+      },
+      {
+        "type": "text",
+        "value": "Essa dificuldade ocorre porque o(a)"
+      },
+      {
+        "type": "text",
+        "value": "a)  força necessária para a sucção do ar e do suco simultaneamente dobra de valor."
+      },
+      {
+        "type": "text",
+        "value": "b)  densidade do ar é menor que a do suco, portanto, o volume de ar aspirado é muito maior que o volume de suco."
+      },
+      {
+        "type": "text",
+        "value": "c)  velocidade com que o suco sobe deve ser constante nos dois canudos, o que é impossível com um dos canudos de fora."
+      },
+      {
+        "type": "text",
+        "value": "d)  peso da coluna de suco é consideravelmente maior que o peso da coluna de ar, o que dificulta a sucção do líquido."
+      },
+      {
+        "type": "text",
+        "value": "e)  pressão no interior da boca assume praticamente o mesmo valor daquela que atua sobre o suco."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "O canudo do lado de fora do líquido impediria a formação da diferença de pressão necessária para a sucção do suco, ficando a pressão no interior da boca praticamente igual à da atmosfera durante o processo."
+      }
+    ]
+  },
+  {
+    "id": "HID-06",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 6,
+    "origem_declarada": "Enem/2013",
+    "id_banco_declarado": "128025",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Garrafa perfurada tampada e aberta",
+    "tema": "Pressão atmosférica e Stevin",
+    "raciocinio": "Interpretar experimento e escoamento",
+    "tipo_de_pratica": "Experimental; conceitual",
+    "dependencia_visual": "Figura de apoio",
+    "gabarito_no_material": "A",
+    "pendencia": "Revisão prioritária: comentário usa limite de 10 m sem justificar condições de pressão interna.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "A",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem) Para realizar um experimento com uma garrafa PET cheia de água, perfurou-se a lateral da garrafa em três posições a diferentes alturas. Com a garrafa tampada, a água não vazou por nenhum dos orifícios, e, com a garrafa destampada, observou-se o escoamento da água, conforme ilustrado na figura."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/hid-06-image5.png"
+      },
+      {
+        "type": "text",
+        "value": "Como a pressão atmosférica interfere no escoamento da água, nas situações com a garrafa tampada e destampada, respectivamente?"
+      },
+      {
+        "type": "text",
+        "value": "a)  Impede a saída de água, por ser maior que a pressão interna; não muda a velocidade de escoamento, que só depende da pressão da coluna de água."
+      },
+      {
+        "type": "text",
+        "value": "b)  Impede a saída de água, por ser maior que a pressão interna; altera a velocidade de escoamento, que é proporcional à pressão atmosférica na altura do furo."
+      },
+      {
+        "type": "text",
+        "value": "c)  Impede a entrada de ar, por ser menor que a pressão interna; altera a velocidade de escoamento, que é proporcional à pressão atmosférica na altura do furo."
+      },
+      {
+        "type": "text",
+        "value": "d)  Impede a saída de água, por ser maior que a pressão interna; regula a velocidade de escoamento, que só depende da pressão atmosférica."
+      },
+      {
+        "type": "text",
+        "value": "e)  Impede a entrada de ar, por ser menor que a pressão interna; não muda a velocidade de escoamento, que só depende da pressão da coluna de água."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Para que a pressão interior fosse maior que a pressão atmosférica, a coluna de água deveria ter mais de 10 m. Logo, a água não sairá com a garrafa fechada."
+      },
+      {
+        "type": "text",
+        "value": "Abrindo-se a garrafa, a pressão no orifício aumenta com a profundidade em relação à superfície da água, acarretando maior velocidade na saída."
+      }
+    ]
+  },
+  {
+    "id": "HID-07",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 7,
+    "origem_declarada": "Enem/2012",
+    "id_banco_declarado": "121959",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Pneus de tratores e solo",
+    "tema": "Pressão de contato",
+    "raciocinio": "Relacionar área de apoio e pressão",
+    "tipo_de_pratica": "Conceitual",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "A",
+    "pendencia": "Conexão direta com explicação sobre distribuição de força.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "A",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem)  Um dos problemas ambientais vivenciados pela agricultura hoje em dia é a compactação do solo, devida ao intenso tráfego de máquinas cada vez mais pesadas, reduzindo a produtividade das culturas."
+      },
+      {
+        "type": "text",
+        "value": "Uma das formas de prevenir o problema de compactação do solo é substituir os pneus dos tratores por pneus mais"
+      },
+      {
+        "type": "text",
+        "value": "a)   largos, reduzindo pressão sobre o solo."
+      },
+      {
+        "type": "text",
+        "value": "b)   estreitos, reduzindo a pressão sobre o solo."
+      },
+      {
+        "type": "text",
+        "value": "c)   largos, aumentando a pressão sobre o solo."
+      },
+      {
+        "type": "text",
+        "value": "d)   estreitos, aumentando a pressão sobre o solo."
+      },
+      {
+        "type": "text",
+        "value": "e)   altos, reduzindo a pressão sobre o solo."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A pressão média (  pm ) é a razão entre o módulo da força normal aplicada sobre uma superfície e a área (  A  ) dessa superfície:"
+      },
+      {
+        "type": "text",
+        "value": "pm=FnormalA."
+      },
+      {
+        "type": "text",
+        "value": "De acordo com essa expressão, para prevenir a compactação, deve-se diminuir a pressão sobre o solo: ou se trabalha com tratores de menor peso, ou aumenta-se a área de contato dos pneus com o solo, usando pneus mais largos."
+      }
+    ]
+  },
+  {
+    "id": "HID-08",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 8,
+    "origem_declarada": "Enem/2012",
+    "id_banco_declarado": "121962",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Altura da caixa de água até a ducha",
+    "tema": "Stevin",
+    "raciocinio": "Identificar desnível vertical relevante",
+    "tipo_de_pratica": "Conceitual; visual",
+    "dependencia_visual": "Figura essencial",
+    "gabarito_no_material": "C",
+    "pendencia": "Conferir rótulos h1 a h5; manter condições da aproximação hidrostática.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "C",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem) O manual que acompanha uma ducha higiênica informa que a pressão mínima da água para o seu funcionamento apropriado é de 20 kPa. A figura mostra a instalação hidráulica com a caixa d‘água e o cano ao qual deve ser conectada a ducha."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/hid-08-image6.png"
+      },
+      {
+        "type": "text",
+        "value": "O valor da pressão da água na ducha está associado à altura"
+      },
+      {
+        "type": "text",
+        "value": "a)  h1."
+      },
+      {
+        "type": "text",
+        "value": "b)  h2."
+      },
+      {
+        "type": "text",
+        "value": "c)  h3."
+      },
+      {
+        "type": "text",
+        "value": "d)  h4."
+      },
+      {
+        "type": "text",
+        "value": "e)  h5."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "De acordo com o teorema de Stevin, a pressão de uma coluna líquida é diretamente proporcional à altura dessa coluna, que é medida do nível do líquido até o ponto de saída, no caso, h3."
+      }
+    ]
+  },
+  {
+    "id": "HID-09",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 9,
+    "origem_declarada": "Enem/2011",
+    "id_banco_declarado": "108611",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Economia de água na descarga",
+    "tema": "Volume e sistema hidráulico",
+    "raciocinio": "Identificar volume limitado por acionamento",
+    "tipo_de_pratica": "Conceitual",
+    "dependencia_visual": "Figura de apoio",
+    "gabarito_no_material": "B",
+    "pendencia": "Stevin aparece no contexto; demanda central é economia por volume do tanque. Não reduzir sifão inteiro a Stevin.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "B",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem)  Um tipo de vaso sanitário que vem substituindo as válvulas de descarga está esquematizado na figura. Ao acionar a alavanca, toda a água do tanque é escoada e aumenta o nível no vaso, até cobrir o sifão. De acordo com o Teorema de Stevin, quanto maior a profundidade, maior a pressão. Assim, a água desce levando os rejeitos até o sistema de esgoto. A válvula da caixa de descarga se fecha e ocorre o seu enchimento. Em relação às válvulas de descarga, esse tipo de sistema proporciona maior economia de água."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/hid-09-image7.png"
+      },
+      {
+        "type": "text",
+        "value": "A característica de funcionamento que garante essa economia é devida"
+      },
+      {
+        "type": "text",
+        "value": "a)   à altura do sifão de água."
+      },
+      {
+        "type": "text",
+        "value": "b)   ao volume do tanque de água."
+      },
+      {
+        "type": "text",
+        "value": "c)   à altura do nível de água no vaso."
+      },
+      {
+        "type": "text",
+        "value": "d)   ao diâmetro do distribuidor de água."
+      },
+      {
+        "type": "text",
+        "value": "e)   à eficiência da válvula de enchimento do tanque."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A pressão hidrostática épn=ρgh, sendo ρa densidade da água, g a aceleração da gravidade e h a altura da coluna."
+      },
+      {
+        "type": "text",
+        "value": "Notemos que a pressão não depende do volume, podendo, então, obter-se a mesma pressão com volumes menores, propiciando economia de água."
+      }
+    ]
+  },
+  {
+    "id": "HID-10",
+    "arquivo": "ENEM - Densidade, Pressão e Stevin.docx",
+    "numero_no_arquivo": 10,
+    "origem_declarada": "Enem/2021",
+    "id_banco_declarado": "204412",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Densidade de planeta em cordel",
+    "tema": "Densidade relativa",
+    "raciocinio": "Cruzar descrição com tabela",
+    "tipo_de_pratica": "Tabela; conceitual",
+    "dependencia_visual": "Tabela textual",
+    "gabarito_no_material": "D",
+    "pendencia": "Preservar atribuição do cordel e da tabela ao consultar prova original.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "D",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem) TEXTO I"
+      },
+      {
+        "type": "text",
+        "value": "No cordel intitulado Senhor dos Anéis, de autoria de Gonçalo Ferreira da Silva, lê-se a sextilha:"
+      },
+      {
+        "type": "text",
+        "value": "A distância em relação"
+      },
+      {
+        "type": "text",
+        "value": "Ao nosso planeta amado"
+      },
+      {
+        "type": "text",
+        "value": "Pouco menos que a do Sol"
+      },
+      {
+        "type": "text",
+        "value": "Ele está distanciado"
+      },
+      {
+        "type": "text",
+        "value": "E menos denso que a água"
+      },
+      {
+        "type": "text",
+        "value": "Quando no normal estado"
+      },
+      {
+        "type": "text",
+        "value": "MEDEIROS, A.; AGRA, J. T. M., A astronomia na literatura de cordel. Física na Escola, n. 1, abr, 2010 (fragmento)."
+      },
+      {
+        "type": "text",
+        "value": "TEXTO II"
+      },
+      {
+        "type": "text",
+        "value": "Distâncias médias dos planetas ao Sol e suas densidades médias"
+      },
+      {
+        "type": "text",
+        "value": "u.a. = 149.600.000 km, é a unidade astronômica. *Planeta clássico, **Planeta-anão"
+      },
+      {
+        "type": "text",
+        "value": "Características dos planetas. Disponível em: www.astronoo.com. Acesso em: 8 nov. 2019 (adaptado)."
+      },
+      {
+        "type": "text",
+        "value": "Considerando os versos da sextilha e as informações da tabela, a qual planeta o cordel faz referência?"
+      },
+      {
+        "type": "text",
+        "value": "a)  Mercúrio."
+      },
+      {
+        "type": "text",
+        "value": "b)  Júpiter."
+      },
+      {
+        "type": "text",
+        "value": "c)  Urano."
+      },
+      {
+        "type": "text",
+        "value": "d)  Saturno."
+      },
+      {
+        "type": "text",
+        "value": "e)  Netuno."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A densidade relativa é a densidade do corpo em relação à água. O cordel faz referência a um planeta de densidade relativa menor que a da água. Consultando a tabela, nota-se que o único planeta com essa característica é Saturno."
+      }
+    ]
+  },
+  {
+    "id": "DIL-01",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 1,
+    "origem_declarada": "Uerj/2027",
+    "id_banco_declarado": "268972",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Gráfico de volumes de três líquidos",
+    "tema": "Dilatação volumétrica",
+    "raciocinio": "Interpretar inclinação de gráfico",
+    "tipo_de_pratica": "Gráfico; comparação",
+    "dependencia_visual": "Figura essencial",
+    "gabarito_no_material": "B",
+    "pendencia": "Conferir atribuição Uerj/2027 antes de publicar.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "B",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Uerj) Em um experimento, os líquidos A, B e C, em recipientes distintos, inicialmente à mesma temperatura e com mesmo volume, foram submetidos simultaneamente a uma fonte térmica constante. Observe no gráfico as variações dos volumes de cada líquido em função da temperatura:"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-01-image2.png"
+      },
+      {
+        "type": "text",
+        "value": "Nessas condições, a relação entre os coeficientes de dilatação volumétrica dos líquidos é:"
+      },
+      {
+        "type": "text",
+        "value": "a)  γC=γB=γA."
+      },
+      {
+        "type": "text",
+        "value": "b)  γC<γB<γA."
+      },
+      {
+        "type": "text",
+        "value": "c)  γC>γB>γA."
+      },
+      {
+        "type": "text",
+        "value": "d)  γC<γB=γA."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Como ΔV=V0γΔθ, para uma mesma variação de temperatura e mesmos volumes iniciais, teremos:"
+      },
+      {
+        "type": "text",
+        "value": "ΔVA>ΔVB>ΔVC⇒γC<γB<γA"
+      }
+    ]
+  },
+  {
+    "id": "DIL-02",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 2,
+    "origem_declarada": "Unesp/2026",
+    "id_banco_declarado": "262563",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Indicador de combustível com bimetal",
+    "tema": "Lâminas bimetálicas",
+    "raciocinio": "Relacionar corrente, aquecimento e curvatura",
+    "tipo_de_pratica": "Conceitual; interdisciplinar",
+    "dependencia_visual": "Figura essencial",
+    "gabarito_no_material": "B",
+    "pendencia": "Exige circuito e efeito Joule; revisar texto das lacunas.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "B",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Unesp) As figuras 1 e 2 representam o circuito elétrico do indicador do nível de combustível de um veículo. Esse indicador possui uma boia de plástico que flutua no combustível, dentro do tanque, e está conectada a uma barra de metal. A outra ponta dessa barra desliza sobre um resistor de resistência variável (reostato). Quando o tanque está cheio (figura 1), apenas uma pequena porção do resistor faz parte do circuito. Quando o tanque está vazio (figura 2), uma grande porção do resistor faz parte do circuito."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-02-image3.png"
+      },
+      {
+        "type": "text",
+        "value": "A bateria do veículo faz circular uma corrente elétrica por esse circuito, que é usada para aquecer uma lâmina bimetálica constituída por dois metais, A e B, que, quando aquecida, se curva e desloca o ponteiro do mostrador, conforme a figura 1."
+      },
+      {
+        "type": "text",
+        "value": "À medida que o combustível vai sendo utilizado, a intensidade da corrente elétrica que passa pelo reostato vai __________ e, para que esse indicador funcione como descrito na figura, o coeficiente de dilatação térmica do metal A da lâmina bimetálica deve __________ ser coeficiente de dilatação térmica do metal B."
+      },
+      {
+        "type": "text",
+        "value": "As lacunas do texto são preenchidas, respectivamente, por:"
+      },
+      {
+        "type": "text",
+        "value": "a)  aumentando – maior do que o."
+      },
+      {
+        "type": "text",
+        "value": "b)  diminuindo – menor do que"
+      },
+      {
+        "type": "text",
+        "value": "c)  diminuindo – igual a"
+      },
+      {
+        "type": "text",
+        "value": "d)  diminuindo – maior do que o."
+      },
+      {
+        "type": "text",
+        "value": "e)  aumentando – menor do que o."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "De acordo com a figura 1, quando o tanque está cheio a lâmina bimetálica está mais dilatada devido ao efeito Joule que aquece a lâmina, assim quando o tanque está sendo esvaziado, a corrente que circula na lâmina diminui porque o efeito da dilatação é menor como mostra a figura 2. Quanto à lâmina bimetálica, nota-se que o metal A sofre menor curvatura em relação ao metal B, denotando que o metal A tem o coeficiente de dilatação menor que o metal B.Tem-se então a alternativa [B] como correta."
+      }
+    ]
+  },
+  {
+    "id": "DIL-03",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 3,
+    "origem_declarada": "Ufsc/2026",
+    "id_banco_declarado": "266346",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Soma",
+    "resumo": "Resfriamento de lata no envase",
+    "tema": "Contração e calorimetria",
+    "raciocinio": "Julgar afirmações e interpretar sinais",
+    "tipo_de_pratica": "Soma; cálculo; conceitual",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "43 (01 + 02 + 08 + 32)",
+    "pendencia": "Expressão da afirmativa 08 contém LaTeX duplicado; esclarecer sinal da contração e módulo. Conferir original e autoria da adaptação.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "43 (01 + 02 + 08 + 32)",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Ufsc) A Engenharia de Alimentos exige domínio de conceitos físicos relacionados a temperatura, calor e dilatação térmica. Esses conhecimentos são fundamentais para o controle de processos como aquecimento, resfriamento e envase de produtos. A seguir, uma situação ilustra a aplicação desses conceitos em contextos reais de produção e conservação de alimentos."
+      },
+      {
+        "type": "text",
+        "value": "Durante o processo de envase, um líquido é introduzido a alta temperatura em uma lata metálica. Após o fechamento, a lata é resfriada para conservação em ambiente refrigerado. O técnico responsável precisa compreender os efeitos térmicos envolvidos para garantir a integridade da lata. Considere que a lata, de alumínio, tem massa de 0,2 kg, o calor específico do alumínio é 900 J/kg·°C, que passa de 90°C para 20°C, e que o coeficiente de dilatação linear do alumínio é α=2,4×10−5 °C−1."
+      },
+      {
+        "type": "text",
+        "value": "Com base no exposto, é correto afirmar que:"
+      },
+      {
+        "type": "text",
+        "value": "(01) admitindo-se que o processo de resfriamento da lata durou 5 minutos, a taxa de resfriamento por unidade de tempo foi de 42,0 W."
+      },
+      {
+        "type": "text",
+        "value": "(02) a quantidade de calor liberada pela lata ao resfriar é de 12.600 J."
+      },
+      {
+        "type": "text",
+        "value": "(04) a contração térmica da lata ocorre porque a temperatura diminui e o alumínio sofre uma variação de volume positiva."
+      },
+      {
+        "type": "text",
+        "value": "(08) a variação relativa no comprimento da lata durante o resfriamento é de é de 1,68×10−31{,}68 \\times 10^{-3} vezes o comprimento inicial."
+      },
+      {
+        "type": "text",
+        "value": "(16) a quantidade de calor trocada depende apenas da temperatura final do ambiente refrigerado."
+      },
+      {
+        "type": "text",
+        "value": "(32) se o líquido a ser envasado é predominantemente à base de água, deve-se considerar a dilatação anômala da água que ocorre de 4°C para 0°C, à pressão de 1,0 atm, em que o volume da água aumenta"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "01 + 02 + 08 + 32 = 43."
+      },
+      {
+        "type": "text",
+        "value": "Análise das afirmativas."
+      },
+      {
+        "type": "text",
+        "value": "[01] Verdadeira. A taxa de resfriamento (potência térmica) é a razão entre o calor trocado e o tempo gasto."
+      },
+      {
+        "type": "text",
+        "value": "Cálculo do calor sensível (Q):"
+      },
+      {
+        "type": "text",
+        "value": "Q=m⋅c⋅ΔT=0,2 kg⋅900 Jkg °C⋅70°C∴Q=12600 J"
+      },
+      {
+        "type": "text",
+        "value": "O tempo gasto em segundos é:"
+      },
+      {
+        "type": "text",
+        "value": "Δt=5 min⋅60 s1 min∴Δt=300 s"
+      },
+      {
+        "type": "text",
+        "value": "Logo, a potência (P) é:"
+      },
+      {
+        "type": "text",
+        "value": "P=QΔt=12600 J300 s∴P=42 W"
+      },
+      {
+        "type": "text",
+        "value": "[02] Verdadeira. Conforme calculado acima, a quantidade de calor liberada pela lata é exatamente 12.600 J. Note que o valor é positivo para \"quantidade liberada\", embora o cálculo técnico de variação de energia resulte em um valor negativo (perda de calor)."
+      },
+      {
+        "type": "text",
+        "value": "[04] Falsa. A contração térmica ocorre porque a temperatura diminui, resultando em uma variação de volume negativa (ΔV<0). As partículas perdem energia cinética e se aproximam, reduzindo as dimensões do sólido."
+      },
+      {
+        "type": "text",
+        "value": "[08] Verdadeira. A variação relativa no comprimento ΔLL0 é dada por α⋅ΔT. Assim, substituindo-se os dados, temos:"
+      },
+      {
+        "type": "text",
+        "value": "ΔLL0=α⋅ΔT⇒ΔLL0=2,4×10−5 °C−1⋅70°C∴ΔLL0=1,68×10−3"
+      },
+      {
+        "type": "text",
+        "value": "[16] Falsa. A quantidade de calor trocada (Q) depende da massa do corpo, do calor específico do material e da variação de temperatura ΔT=Tfinal−Tinicial, e não apenas da temperatura final."
+      },
+      {
+        "type": "text",
+        "value": "[32] Verdadeira. A água apresenta um comportamento anômalo entre 0°C e 4°C (sob 1,0 atm). Ao contrário da maioria das substâncias, a água expande ao ser resfriada de 4°C para 0°C. No envase de alimentos líquidos, esse fator é crucial para evitar que a expansão do gelo ou da água fria rompa a embalagem."
+      }
+    ]
+  },
+  {
+    "id": "DIL-04",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 4,
+    "origem_declarada": "Mackenzie/1997",
+    "id_banco_declarado": "18941",
+    "dificuldade_declarada": "Média",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Coeficiente em Fahrenheit",
+    "tema": "Unidades e escalas",
+    "raciocinio": "Converter coeficiente por intervalo térmico",
+    "tipo_de_pratica": "Cálculo",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "E",
+    "pendencia": "Rever notação das equações.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "E",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Mackenzie)  O coeficiente de dilatação linear de certo material é 3,6 . 10–6°C–1 . Utilizando como unidade de temperatura o°F (grau Fahrenheit), então o valor do coeficiente de dilatação linear desse material será:"
+      },
+      {
+        "type": "text",
+        "value": "a)   6,3 . 10–6  °F–1"
+      },
+      {
+        "type": "text",
+        "value": "b)   5,6 . 10–6  °F–1"
+      },
+      {
+        "type": "text",
+        "value": "c)   4,0 . 10–6  °F–1"
+      },
+      {
+        "type": "text",
+        "value": "d)   3,6 . 10–6  °F–1"
+      },
+      {
+        "type": "text",
+        "value": "e)   2,0 . 10–6  °F–1"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Da expressão da dilação linear: ΔL= ∝𝛼L0 ΔT ∴ 𝛼=ΔLL0 ΔT ."
+      },
+      {
+        "type": "text",
+        "value": "O coeficiente de dilação linear dá a variação do comprimento por unidade de comprimento e por unidade de  VARIAÇÃO  temperatura."
+      },
+      {
+        "type": "text",
+        "value": "A relação entre variações de temperatura para as escalas Celsius e Fahrenheit é: ΔTC100=ΔTF180∴ΔTCΔTF=11,8."
+      },
+      {
+        "type": "text",
+        "value": "Comparando os coeficientes de dilatação nas duas escalas:"
+      },
+      {
+        "type": "text",
+        "value": "ΔL=L0 𝛼F ΔTFΔ=L0  𝛼CΔTC⟩ →÷ 1= 𝛼F ΔTF𝛼C ΔTC ⇒ 𝛼F=𝛼C ΔTCΔTF ⇒"
+      },
+      {
+        "type": "text",
+        "value": "𝛼F= 3,6⋅10−6 11,8 ∴ 𝛼F= 2,0×10−6°F−1."
+      }
+    ]
+  },
+  {
+    "id": "DIL-05",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 5,
+    "origem_declarada": "G1 - ifce/2012",
+    "id_banco_declarado": "114468",
+    "dificuldade_declarada": "Elevada",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Volume de cubo aquecido",
+    "tema": "Dilatação volumétrica",
+    "raciocinio": "Determinar alfa a partir de volumes",
+    "tipo_de_pratica": "Cálculo",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "E",
+    "pendencia": "Comentário mistura símbolos lineares e volumétricos; reescrever resolução.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "E",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(G1 - ifce)  Um bloco em forma de cubo possui volume de  400 cm3 a  0°C  e  400,6 cm3 a  100°C  . O coeficiente de dilatação linear do material que constitui o bloco, em unidades °C-1 , vale"
+      },
+      {
+        "type": "text",
+        "value": "a)   4x10-5  ."
+      },
+      {
+        "type": "text",
+        "value": "b)   3x10-6  ."
+      },
+      {
+        "type": "text",
+        "value": "c)   2x10-6  ."
+      },
+      {
+        "type": "text",
+        "value": "d)   1,5x10-5  ."
+      },
+      {
+        "type": "text",
+        "value": "e)   5x10-6  ."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "ΔL=L0 3 α Δθ  ⇒  α=Δ3 L0 Δθ=400,6−4003(400)(100−0)=6×10−13×4×102×102⇒α=5×10−6 °C−1."
+      }
+    ]
+  },
+  {
+    "id": "DIL-06",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 6,
+    "origem_declarada": "Unesp/2014",
+    "id_banco_declarado": "128385",
+    "dificuldade_declarada": "Média",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Disjuntor termomagnético",
+    "tema": "Lâminas bimetálicas",
+    "raciocinio": "Relacionar curvatura e campo magnético",
+    "tipo_de_pratica": "Conceitual; interdisciplinar",
+    "dependencia_visual": "Figura essencial",
+    "gabarito_no_material": "C",
+    "pendencia": "Exige magnetismo além das três aulas; marcar pré-requisito.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "C",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Unesp)  A figura é o esquema simplificado de um disjuntor termomagnético utilizado para a proteção de instalações elétricas residenciais. O circuito é formado por um resistor de baixa resistência R; uma lâmina bimetálica L, composta pelos metais X e Y; um eletroímã E; e um par de contatos C. Esse par de contatos tende a abrir pela ação da mola M2 , mas o braço atuador A impede, com ajuda da mola M1 . O eletroímã E é dimensionado para atrair a extremidade do atuador A somente em caso de corrente muito alta (curto circuito) e, nessa situação, A gira no sentido indicado, liberando a abertura do par de contatos C pela ação de M2 ."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-06-image4.png"
+      },
+      {
+        "type": "text",
+        "value": "De forma similar, R e L são dimensionados para que esta última não toque a extremidade de A quando o circuito é percorrido por uma corrente até o valor nominal do disjuntor. Acima desta, o aquecimento leva o bimetal a tocar o atuador A, interrompendo o circuito de forma idêntica à do eletroímã."
+      },
+      {
+        "type": "text",
+        "value": "(www.mspc.eng.br. Adaptado.)"
+      },
+      {
+        "type": "text",
+        "value": "Na condição de uma corrente elevada percorrer o disjuntor no sentido indicado na figura, sendo αx e αY os coeficientes de dilatação linear dos metais X e Y, para que o contato C seja desfeito, deve valer a relação __________ e, nesse caso, o vetor que representa o campo magnético criado ao longo do eixo do eletroímã apontará para a __________."
+      },
+      {
+        "type": "text",
+        "value": "Os termos que preenchem as lacunas estão indicados correta e respectivamente na alternativa"
+      },
+      {
+        "type": "text",
+        "value": "a)  αX>αY…  esquerda."
+      },
+      {
+        "type": "text",
+        "value": "b)  αX<αY…  esquerda."
+      },
+      {
+        "type": "text",
+        "value": "c)  αX>αY…  direita."
+      },
+      {
+        "type": "text",
+        "value": "d)  αX=αY…  direita."
+      },
+      {
+        "type": "text",
+        "value": "e)  αX<αY…  direita."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Para que a lâmina bimetálica vergue para a direita, empurrando o braço atuador, o metal X deve ter coeficiente de dilatação maior que o do metal Y αX>αY."
+      },
+      {
+        "type": "text",
+        "value": "Pela regra prática da mão direita, a extremidade esquerda do eletroímã é um polo sul e extremidade direita um polo norte, portanto, o vetor indução magnética no interior do eletroímã é para a  direita  ."
+      }
+    ]
+  },
+  {
+    "id": "DIL-07",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 7,
+    "origem_declarada": "G1 - cps/2014",
+    "id_banco_declarado": "130344",
+    "dificuldade_declarada": "Média",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Folga em cabos de transmissão",
+    "tema": "Contração térmica",
+    "raciocinio": "Explicar aplicação cotidiana",
+    "tipo_de_pratica": "Conceitual",
+    "dependencia_visual": "Figura contextual",
+    "gabarito_no_material": "D",
+    "pendencia": "Conferir original e atribuição da imagem.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "D",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(G1 - cps) Quem viaja de carro ou de ônibus pode ver, ao longo das estradas, torres de transmissão de energia tais como as da figura."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-07-image5.png"
+      },
+      {
+        "type": "text",
+        "value": "Olhando mais atentamente, é possível notar que os cabos são colocados arqueados ou, como se diz popularmente, “fazendo barriga”."
+      },
+      {
+        "type": "text",
+        "value": "A razão dessa disposição é que"
+      },
+      {
+        "type": "text",
+        "value": "a)  a densidade dos cabos tende a diminuir com o passar dos anos."
+      },
+      {
+        "type": "text",
+        "value": "b)  a condução da eletricidade em alta tensão é facilitada desse modo."
+      },
+      {
+        "type": "text",
+        "value": "c)  o metal usado na fabricação dos cabos é impossível de ser esticado."
+      },
+      {
+        "type": "text",
+        "value": "d)  os cabos, em dias mais frios, podem encolher sem derrubar as torres."
+      },
+      {
+        "type": "text",
+        "value": "e)  os ventos fortes não são capazes de fazer os cabos, assim dispostos, balançarem."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Nos dias frios, o comprimento dos fios diminui devido à contração térmica, daí a necessidade de deixar uma folga entre cada duas torres, o que forma a barriga."
+      }
+    ]
+  },
+  {
+    "id": "DIL-08",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 8,
+    "origem_declarada": "Uepb/2014",
+    "id_banco_declarado": "132341",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Espaçamento entre trilhos",
+    "tema": "Dilatação linear",
+    "raciocinio": "Calcular folga entre barras",
+    "tipo_de_pratica": "Cálculo",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "D",
+    "pendencia": "Revisar erros de digitação e hipótese de distribuição da expansão.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "D",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Uepb)  Quando ocorre um impedimento à livre dilatação ou contração de um corpo, surgem forças internas de tensão que podem levá-lo a se romper ou a se deformar. Por isso, há muitas situações do cotidiano em que a dilatação ou contração técnica é “facilitada” para evitar problemas desse tipo. Por exemplo: nas ferrovias, as barras de trilho devem ser assentadas com um espaço entre elas, para permitir a livre dilatação quando a temperatura variar. Se isso não fosse jeito, os trilhos poderiam se entortar, devido  à  tensão a que ficariam submetidos."
+      },
+      {
+        "type": "text",
+        "value": "(Adaptado de JUNIOR. F. R.  Os Fundamentos da Física  . 8. ed. vol. 2. São Paulo: Moderna. 2003, p. 32)"
+      },
+      {
+        "type": "text",
+        "value": "Com base nas informações acima, analise a seguinte situação-problema:  Em geral, os trilhos de uma ferrovia têm um comprimento de 15 m e são instalados sobre os dormentes quando a temperatura é de 25°C .  Considere que os trilhos têm um coeficiente linear de 10 ⋅ 10− 6 C − 1 .  Em um dia ensolarado de verão, a temperatura dos trilhos pode atingir 55°C Qual deve ser a distância de dilatação mínima entre os trilhos de modo a evitar que as extremidades de dois trilhos consecutivos se juntem e se deformem, podendo ocasionar um acidente?"
+      },
+      {
+        "type": "text",
+        "value": "a)  9,0×10−4m"
+      },
+      {
+        "type": "text",
+        "value": "b)  9,0×10−3m"
+      },
+      {
+        "type": "text",
+        "value": "c)  4,5×10−4m"
+      },
+      {
+        "type": "text",
+        "value": "d)  4,5×10−3m"
+      },
+      {
+        "type": "text",
+        "value": "e)  24,0×10−3m"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Como cada trilho dilata em dois sentidos, metade do total em cada sentido, o espaçamento mínimo deve ser igual à dilatação total de cada trilho."
+      },
+      {
+        "type": "text",
+        "value": "Dmin=ΔL=L0⋅α⋅Δθ⇒Dmin=15⋅10⋅10−6⋅(55−25)⇒Dmin=4,5×10−3m."
+      }
+    ]
+  },
+  {
+    "id": "DIL-09",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 9,
+    "origem_declarada": "G1 - ifsul/2017",
+    "id_banco_declarado": "168118",
+    "dificuldade_declarada": "Elevada",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Dispositivo antiescaldante",
+    "tema": "Dilatação linear",
+    "raciocinio": "Converter gama em alfa e calcular expansão",
+    "tipo_de_pratica": "Cálculo",
+    "dependencia_visual": "Figura e alternativas em imagens",
+    "gabarito_no_material": "A",
+    "pendencia": "Transcrever alternativas com notação acessível; não perder fator 3.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "A",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(G1 - ifsul) A cada ano, milhares de crianças sofrem queimaduras graves com água de torneiras fervendo. A figura a seguir mostra uma vista em corte transversal de um dispositivo antiescaldante, bem simplificado, para prevenir este tipo de acidente."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-09-image6.png"
+      },
+      {
+        "type": "text",
+        "value": "Dentro do dispositivo, uma mola feita com material com um alto coeficiente de expansão térmica controla o êmbolo removível. Quando a temperatura da água se eleva acima de um valor seguro preestabelecido, a expansão da mola faz com que o êmbolo corte o fluxo de água. Admita que o comprimento inicial  L  da mola não tensionada seja de 2,40cm e que seu coeficiente de expansão volumétrica seja de 66,0×10−6 °C−1."
+      },
+      {
+        "type": "text",
+        "value": "Nas condições acima propostas o aumento no comprimento da mola, quando a temperatura da água se eleva de 30°C,  é de"
+      },
+      {
+        "type": "text",
+        "value": "a)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-09-image7.png"
+      },
+      {
+        "type": "text",
+        "value": "b)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-09-image8.png"
+      },
+      {
+        "type": "text",
+        "value": "c)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-09-image9.png"
+      },
+      {
+        "type": "text",
+        "value": "d)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-09-image10.png"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A dilatação térmica da mola é dada por:"
+      },
+      {
+        "type": "text",
+        "value": "Δ=L0⋅α⋅ΔT"
+      },
+      {
+        "type": "text",
+        "value": "São dados o comprimento inicial da mola L0,  a variação de temperatura ΔT e o coeficiente de expansão volumétrica γ. Este último dado é uma “pegadinha”, pois necessitamos é do coeficiente de dilatação linear do material α, que é a terça parte do coeficiente volumétrico:"
+      },
+      {
+        "type": "text",
+        "value": "α=γ3⇒α=66,0×10−6°C−13∴α=22,0×10−6°C−1"
+      },
+      {
+        "type": "text",
+        "value": "Agora calculando a dilatação linear, temos:"
+      },
+      {
+        "type": "text",
+        "value": "Δ=2,40cm⋅22,0×10−6°C−1⋅30°C∴Δ=1,584⋅10−3cm"
+      }
+    ]
+  },
+  {
+    "id": "DIL-10",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 10,
+    "origem_declarada": "Fuvest/2014",
+    "id_banco_declarado": "128409",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Bronze e ferro aquecidos",
+    "tema": "Lâminas bimetálicas",
+    "raciocinio": "Prever sentido de curvatura",
+    "tipo_de_pratica": "Conceitual; visual",
+    "dependencia_visual": "Enunciado e alternativas em imagens",
+    "gabarito_no_material": "D",
+    "pendencia": "Preservar correspondência entre posição dos metais e alternativas.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "D",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Fuvest) Uma lâmina bimetálica de bronze e ferro, na temperatura ambiente, é fixada por uma de suas extremidades, como visto na figura abaixo."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-10-image11.png"
+      },
+      {
+        "type": "text",
+        "value": "Nessa situação, a lâmina está plana e horizontal. A seguir, ela é aquecida por uma chama de gás. Após algum tempo de aquecimento, a forma assumida pela lâmina será mais adequadamente representada pela figura:"
+      },
+      {
+        "type": "text",
+        "value": "Note e adote:"
+      },
+      {
+        "type": "text",
+        "value": "O coeficiente de dilatação térmica linear do ferro é 1,2×10−5 °C−1."
+      },
+      {
+        "type": "text",
+        "value": "O coeficiente de dilatação térmica linear do bronze é 1,8×10−5 °C−1."
+      },
+      {
+        "type": "text",
+        "value": "Após o aquecimento, a temperatura da lâmina é uniforme."
+      },
+      {
+        "type": "text",
+        "value": "a)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-10-image12.png"
+      },
+      {
+        "type": "text",
+        "value": "b)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-10-image13.png"
+      },
+      {
+        "type": "text",
+        "value": "c)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-10-image14.png"
+      },
+      {
+        "type": "text",
+        "value": "d)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-10-image15.png"
+      },
+      {
+        "type": "text",
+        "value": "e)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-10-image16.png"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Coeficiente de dilatação linear do bronze é maior que o do ferro, portanto a lâmina de bronze fica com comprimento maior, vergando como mostrado na alternativa [D]."
+      }
+    ]
+  },
+  {
+    "id": "DIL-11",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 11,
+    "origem_declarada": "Enem PPL/2012",
+    "id_banco_declarado": "127074",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Porca e parafuso aquecidos",
+    "tema": "Dilatação de orifícios",
+    "raciocinio": "Selecionar coeficientes em tabela",
+    "tipo_de_pratica": "Tabela; conceitual",
+    "dependencia_visual": "Tirinha e unidade em imagem; tabela",
+    "gabarito_no_material": "C",
+    "pendencia": "Verificar condições de uso da tirinha e fonte da prova; tornar unidade textual.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "C",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Enem PPL)"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-11-image17.png"
+      },
+      {
+        "type": "text",
+        "value": "O quadro oferece os coeficientes de dilatação linear de alguns metais e ligas metálicas:"
+      },
+      {
+        "type": "text",
+        "value": "Para permitir a ocorrência do fato observado na tirinha, a partir do menor aquecimento do conjunto, o parafuso e a porca devem ser feitos, respectivamente, de"
+      },
+      {
+        "type": "text",
+        "value": "a)  aço e níquel"
+      },
+      {
+        "type": "text",
+        "value": "b)  alumínio e chumbo."
+      },
+      {
+        "type": "text",
+        "value": "c)  platina e chumbo."
+      },
+      {
+        "type": "text",
+        "value": "d)  ouro e Iatão."
+      },
+      {
+        "type": "text",
+        "value": "e)  cobre e bronze."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Quanto mais a porca se dilatar e quanto menos o parafuso se dilatar, menor será o aquecimento necessário para o desatarraxamento. Assim, dentre os materiais listados, o material do parafuso deve ser o de menor coeficiente de dilatação e o da porca, o de maior. Portanto, o parafuso deve ser de platina e a porca de chumbo."
+      }
+    ]
+  },
+  {
+    "id": "DIL-12",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 12,
+    "origem_declarada": "Unesp/2015",
+    "id_banco_declarado": "140386",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Separação de copos encaixados",
+    "tema": "Dilatação e contração",
+    "raciocinio": "Escolher procedimento térmico",
+    "tipo_de_pratica": "Conceitual",
+    "dependencia_visual": "Figura identifica os copos",
+    "gabarito_no_material": "E",
+    "pendencia": "Explicar como cada copo muda de tamanho.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "E",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Unesp)  Dois copos de vidro iguais, em equilíbrio térmico com a temperatura ambiente, foram guardados, um dentro do outro, conforme mostra a figura. Uma pessoa, ao tentar desencaixá-los, não obteve sucesso. Para separá-los, resolveu colocar em prática seus conhecimentos da física térmica."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-12-image19.png"
+      },
+      {
+        "type": "text",
+        "value": "De acordo com a física térmica, o único procedimento capaz de separá-los é:"
+      },
+      {
+        "type": "text",
+        "value": "a)  mergulhar o copo  B em água em equilíbrio térmico com cubos de gelo e encher o copo A com água à temperatura ambiente."
+      },
+      {
+        "type": "text",
+        "value": "b)  colocar água quente (superior à temperatura ambiente) no copo  A."
+      },
+      {
+        "type": "text",
+        "value": "c)  mergulhar o copo  B em água gelada (inferior à temperatura ambiente) e deixar o copo A sem líquido."
+      },
+      {
+        "type": "text",
+        "value": "d)  encher o copo A com água quente (superior à temperatura ambiente) e mergulhar o copo  B em água gelada (inferior à temperatura ambiente)."
+      },
+      {
+        "type": "text",
+        "value": "e)  encher o copo A com água gelada (inferior à temperatura ambiente) e mergulhar o copo  B em água quente (superior à temperatura ambiente)."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Enchendo o copo A com água gelada ele sofre contração e mergulhando o copo B em água quente ele sofre dilatação, criando uma folga entre eles, possibilitando a separação."
+      }
+    ]
+  },
+  {
+    "id": "DIL-13",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 13,
+    "origem_declarada": "Fatec/2017",
+    "id_banco_declarado": "174433",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Duas lâminas soldadas",
+    "tema": "Lâminas bimetálicas",
+    "raciocinio": "Prever curvatura a partir dos coeficientes",
+    "tipo_de_pratica": "Conceitual; visual",
+    "dependencia_visual": "Figura essencial; imagem na solução",
+    "gabarito_no_material": "D",
+    "pendencia": "Conferir identificação A e B.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "D",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Fatec) Numa aula de laboratório do curso de Soldagem da FATEC, um dos exercícios era construir um dispositivo eletromecânico utilizando duas lâminas retilíneas de metais distintos, de mesmo comprimento e soldadas entre si, formando o que é chamado de “lâmina bimetálica”."
+      },
+      {
+        "type": "text",
+        "value": "Para isso, os alunos fixaram de maneira firme uma das extremidades enquanto deixaram a outra livre, conforme a figura."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-13-image20.png"
+      },
+      {
+        "type": "text",
+        "value": "Considere que ambas as lâminas estão inicialmente sujeitas à mesma temperatura T0. e que a relação entre os coeficientes de dilatação linear seja αA>αB."
+      },
+      {
+        "type": "text",
+        "value": "Ao aumentar a temperatura da lâmina bimetálica, é correto afirmar que"
+      },
+      {
+        "type": "text",
+        "value": "a)   a  lâmina A  e a  lâmina B  continuam se dilatando de forma retilínea conjuntamente."
+      },
+      {
+        "type": "text",
+        "value": "b)   a  lâmina A  se curva para baixo, enquanto a  lâmina B  se curva para cima."
+      },
+      {
+        "type": "text",
+        "value": "c)   a  lâmina A  se curva para cima, enquanto a  lâmina B  se curva para baixo."
+      },
+      {
+        "type": "text",
+        "value": "d)   tanto a  lâmina A  como a  lâmina B  se curvam para baixo."
+      },
+      {
+        "type": "text",
+        "value": "e)   tanto a  lâmina A  como a  lâmina B  se curvam para cima."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A lâmina de maior coeficiente  (A)  sofre maior dilatação e tende a envolver a de menor coeficiente  (B)  e ambas se curvam para baixo, como ilustrado na figura."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-13-image26.png"
+      }
+    ]
+  },
+  {
+    "id": "DIL-14",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 14,
+    "origem_declarada": "Epcar (Afa)/2013",
+    "id_banco_declarado": "119958",
+    "dificuldade_declarada": "Média",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Retas paralelas de comprimento",
+    "tema": "Dilatação linear",
+    "raciocinio": "Comparar coeficientes com comprimentos iniciais distintos",
+    "tipo_de_pratica": "Gráfico; proporcionalidade",
+    "dependencia_visual": "Gráfico essencial",
+    "gabarito_no_material": "D",
+    "pendencia": "Reconstituir frações na resolução.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "D",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Epcar (Afa))  No gráfico a seguir, está representado o comprimento L de duas barras A e B em função da temperatura θ"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-14-image21.png"
+      },
+      {
+        "type": "text",
+        "value": "Sabendo-se que as retas que representam os comprimentos da barra A e da barra B são paralelas, pode-se afirmar que a razão entre o coeficiente de dilatação linear da barra A e o da barra B é"
+      },
+      {
+        "type": "text",
+        "value": "a)   0,25."
+      },
+      {
+        "type": "text",
+        "value": "b)   0,50."
+      },
+      {
+        "type": "text",
+        "value": "c)   1,00."
+      },
+      {
+        "type": "text",
+        "value": "d)   2,00."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "O coeficiente de dilatação linear é dado por:"
+      },
+      {
+        "type": "text",
+        "value": "ΔL=L0⋅α⋅Δθα=ΔL0⋅Δθ"
+      },
+      {
+        "type": "text",
+        "value": "Logo:"
+      },
+      {
+        "type": "text",
+        "value": "αA=ΔLAL0A⋅ΔθAe αB=ΔLBL0B⋅ΔθB"
+      },
+      {
+        "type": "text",
+        "value": "Sabendo-se que as retas que representam os comprimentos da barra A e da barra B são paralelas podemos concluir que a relação ΔLAΔθA=ΔLBΔθB. Logo, αAαB é dado por:"
+      },
+      {
+        "type": "text",
+        "value": "αAαB=ΔLAL0A·ΔθAΔLBL0B·ΔθB=L0BL0A=2ℓℓ∴αAαB=2"
+      }
+    ]
+  },
+  {
+    "id": "DIL-15",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 15,
+    "origem_declarada": "Ufpr/2019",
+    "id_banco_declarado": "185527",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Analítica",
+    "resumo": "Comprimento medido em laboratório",
+    "tema": "Dilatação linear",
+    "raciocinio": "Extrair coeficiente do gráfico e aplicar a outra barra",
+    "tipo_de_pratica": "Analítica; gráfico; cálculo",
+    "dependencia_visual": "Gráfico essencial",
+    "gabarito_no_material": "3,03 m",
+    "pendencia": "Gráfico começa em 10 °C; preservar referência e hipótese de coeficiente constante na aproximação escolar.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "3,03 m",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Ufpr) A dilatação térmica linear sofrida por um objeto em forma de barra feito de um dado material foi investigada por um estudante, que mediu o comprimento Lda barra em função de sua temperatura  T.  Os dados foram dispostos no gráfico apresentado a seguir."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-15-image22.png"
+      },
+      {
+        "type": "text",
+        "value": "Com base nos dados obtidos nesse gráfico, determine o comprimento final Lfde uma barra feita do mesmo material que a barra utilizada para a obtenção do gráfico acima, tendo comprimento L0=3,00m em T0=20°C, após sofrer uma variação de temperatura de modo que sua temperatura final seja Tf=70°C."
+      },
+      {
+        "type": "text",
+        "value": "TEXTO PARA A PRÓXIMA QUESTÃO."
+      },
+      {
+        "type": "text",
+        "value": "Na(s) questão(ões), as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por g. Onde for necessário, use g = 10 m/s2 para o módulo da aceleração gravitacional."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A partir dos valores do gráfico, determinamos o coeficiente de dilatação linear α  do material:"
+      },
+      {
+        "type": "text",
+        "value": "L0=1,00m"
+      },
+      {
+        "type": "text",
+        "value": "Lf=1,02m"
+      },
+      {
+        "type": "text",
+        "value": "ΔT=100°C"
+      },
+      {
+        "type": "text",
+        "value": "Δν= L0⋅ α⋅ ΔT⇒α=ΔνL0⋅ΔTα=0,02 m1 m⋅100°C ∴ α=2⋅10−4°C−1"
+      },
+      {
+        "type": "text",
+        "value": "Com o valor do coeficiente de dilatação linear, determinamos o comprimento final da barra com a equação abaixo."
+      },
+      {
+        "type": "text",
+        "value": "Lf−L0=L0⋅α⋅ΔT⇒Lf=L0(1+α⋅ΔT)"
+      },
+      {
+        "type": "text",
+        "value": "Logo, para a barra de três metros sujeita à variação de temperatura definida acima, temos:"
+      },
+      {
+        "type": "text",
+        "value": "Lf=3,00m1+2⋅10−4°C−1⋅50°C∴Lf=3,03m"
+      }
+    ]
+  },
+  {
+    "id": "DIL-16",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 16,
+    "origem_declarada": "Ufpr/2023",
+    "id_banco_declarado": "217024",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Variação percentual de comprimento",
+    "tema": "Dilatação linear",
+    "raciocinio": "Relacionar variação relativa e temperatura",
+    "tipo_de_pratica": "Cálculo; proporcionalidade",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "B",
+    "pendencia": "Restaurar símbolos omitidos na resolução.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "B",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Ufpr)  Uma barra metálica retilínea tem um comprimento inicial L0, a uma temperatura T 0 .  O material do qual a barra é feita tem um coeficiente de dilatação linear térmico de valor α=5×10−6°C−1. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor da variação de temperatura ΔT necessária para que essa barra apresente uma variação ΔL em seu comprimento igual a 0,2% de seu comprimento inicial."
+      },
+      {
+        "type": "text",
+        "value": "a)  ΔT=500°C."
+      },
+      {
+        "type": "text",
+        "value": "b)  ΔT=400°C."
+      },
+      {
+        "type": "text",
+        "value": "c)  ΔT=300°C."
+      },
+      {
+        "type": "text",
+        "value": "d)  ΔT=200°C."
+      },
+      {
+        "type": "text",
+        "value": "e)  ΔT=100°C."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Utilizando a fórmula da dilatação linear, chegamos a:"
+      },
+      {
+        "type": "text",
+        "value": "Δ=L0αΔT2⋅10−3L0=L0⋅5⋅10−6⋅ΔT∴ΔT=400°C"
+      }
+    ]
+  },
+  {
+    "id": "DIL-17",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 17,
+    "origem_declarada": "Fmp/2021",
+    "id_banco_declarado": "197055",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Encaixe de anel em cano",
+    "tema": "Dilatação de orifícios",
+    "raciocinio": "Calcular temperatura e converter unidades",
+    "tipo_de_pratica": "Cálculo",
+    "dependencia_visual": "Figura contextual",
+    "gabarito_no_material": "D",
+    "pendencia": "Revisar separação de números e unidades no texto.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "D",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Fmp) Em um equipamento industrial, um anel de alumínio deve ser encaixado em um cano, como mostra a figura abaixo."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-17-image23.png"
+      },
+      {
+        "type": "text",
+        "value": "Entretanto, à temperatura inicial de 20 , 0°C .  os diâmetros externo do cano e interno do anel são iguais a 30 , 0  c m .  o que impossibilita o encaixe. O anel é, então, aquecido, para que ele dilate até que seu diâmetro fique 0,500mm maior, de forma a permitir o encaixe."
+      },
+      {
+        "type": "text",
+        "value": "Nesse contexto, a temperatura final do anel, em °C,  que proporcionou essa dilatação é de, aproximadamente,"
+      },
+      {
+        "type": "text",
+        "value": "Dado: Coeficiente de dilatação linear do Alumínio α=25,0×10−6°C−1"
+      },
+      {
+        "type": "text",
+        "value": "a)  690"
+      },
+      {
+        "type": "text",
+        "value": "b)   62,0"
+      },
+      {
+        "type": "text",
+        "value": "c)   35,0"
+      },
+      {
+        "type": "text",
+        "value": "d)   87,0"
+      },
+      {
+        "type": "text",
+        "value": "e)   58,0"
+      },
+      {
+        "type": "text",
+        "value": "TEXTO PARA A PRÓXIMA QUESTÃO."
+      },
+      {
+        "type": "text",
+        "value": "Considere os dados abaixo para resolver a(s) questão(ões), quando for necessário."
+      },
+      {
+        "type": "text",
+        "value": "Constantes físicas"
+      },
+      {
+        "type": "text",
+        "value": "Aceleração da gravidade próximo à superfície da Terra: g=10m/s2"
+      },
+      {
+        "type": "text",
+        "value": "Aceleração da gravidade próximo à superfície da Lua: g=1,6m/s2"
+      },
+      {
+        "type": "text",
+        "value": "Densidade da água: ρ=1,0g/cm3"
+      },
+      {
+        "type": "text",
+        "value": "Velocidade da luz no vácuo: c=3,0×108m/s"
+      },
+      {
+        "type": "text",
+        "value": "Constante da lei de Coulomb: k0=9,0×109N⋅m2/c2"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A temperatura final para dilatação necessária do anel de alumínio é dada pela expressão da dilatação linear."
+      },
+      {
+        "type": "text",
+        "value": "Δ⊥=L0⋅α⋅ΔT⇒Δ⊥=L0⋅α⋅T−T0⇒T=Δ⊥L0⋅α+T0"
+      },
+      {
+        "type": "text",
+        "value": "Substituindo os valores e usando as unidades de comprimento em milímetros:"
+      },
+      {
+        "type": "text",
+        "value": "T=0,5mm300mm⋅25,0×10−6°C−1+20°C⇒T=0,575⋅10−4°C+20°C⋅∴T=86,7°C≈87°C"
+      }
+    ]
+  },
+  {
+    "id": "DIL-18",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 18,
+    "origem_declarada": "Cefet MG/2015",
+    "id_banco_declarado": "140507",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Barras unidas após aquecimento",
+    "tema": "Lâminas bimetálicas",
+    "raciocinio": "Relacionar deformação, coeficientes e sinal de temperatura",
+    "tipo_de_pratica": "Conceitual; visual",
+    "dependencia_visual": "Figura essencial",
+    "gabarito_no_material": "C",
+    "pendencia": "Conferir figura e redação das alternativas.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "C",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Cefet MG)  A FIG. 1(a) mostra como duas barras de materiais diferentes estão fixas entre si e a um suporte e a FIG. 1(b) mostra essas mesmas barras, após terem sofrido uma variação de temperatura ΔT"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-18-image24.png"
+      },
+      {
+        "type": "text",
+        "value": "Sabendo-se que os coeficientes médios de expansão linear dessas barras são α1 e α2 é correto afirmar que"
+      },
+      {
+        "type": "text",
+        "value": "a)   Se α1<α2,  então Δ T > 0 ."
+      },
+      {
+        "type": "text",
+        "value": "b)   Se α1 > α2   então Δ T < 0 ."
+      },
+      {
+        "type": "text",
+        "value": "c)   Se α1 > α2   então Δ T > 0 ."
+      },
+      {
+        "type": "text",
+        "value": "d)  Δ T < 0 ,  independentemente de α1  e α2"
+      },
+      {
+        "type": "text",
+        "value": "e)  Δ T > 0 ,  independentemente de α1  e α2"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Pelas ilustrações do enunciado, é fácil notar que a barra 1 dilatou mais que a barra 2. Se a dilatação linear é dada por,"
+      },
+      {
+        "type": "text",
+        "value": "Δν=L0⋅α⋅ΔT"
+      },
+      {
+        "type": "text",
+        "value": "Como L0 e ΔT são iguais para as duas barras, então:"
+      },
+      {
+        "type": "text",
+        "value": "α1>α2"
+      },
+      {
+        "type": "text",
+        "value": "E como o tamanho aumentou →Δ T > 0 ."
+      }
+    ]
+  },
+  {
+    "id": "DIL-19",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 19,
+    "origem_declarada": "Epcar (Afa)/2017",
+    "id_banco_declarado": "162349",
+    "dificuldade_declarada": "Baixa",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Termômetro de álcool",
+    "tema": "Dilatação de líquidos",
+    "raciocinio": "Relacionar expansão de volume e altura no capilar",
+    "tipo_de_pratica": "Cálculo; geometria",
+    "dependencia_visual": "Figura de apoio",
+    "gabarito_no_material": "B",
+    "pendencia": "Explicitar hipótese de dilatação desprezível do vidro.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "B",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Epcar (Afa)) Em um laboratório de física é proposta uma experiência onde os alunos deverão construir um termômetro, o qual deverá ser constituído de um bulbo, um tubo muito fino e uniforme, ambos de vidro, além de álcool colorido, conforme a figura abaixo."
+      },
+      {
+        "type": "text",
+        "value": "O bulbo tem capacidade de 2,0 cm3, o tubo tem área de secção transversal de 1,0⋅10−2cm2 e comprimento de 25 cm."
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-19-image25.png"
+      },
+      {
+        "type": "text",
+        "value": "No momento da experiência, a temperatura no laboratório é 30°C e o bulbo é totalmente preenchido com álcool até a base do tubo. Sabendo-se que o coeficiente de dilatação do álcool é 11⋅10−4°C−1 e que o coeficiente de dilatação do vidro utilizado é desprezível comparado ao do álcool, a altura  h,  em cm, atingida pelo líquido no tubo, quando o termômetro for utilizado em um experimento a 80°C, é"
+      },
+      {
+        "type": "text",
+        "value": "a)   5,50"
+      },
+      {
+        "type": "text",
+        "value": "b)   11,0"
+      },
+      {
+        "type": "text",
+        "value": "c)   16,5"
+      },
+      {
+        "type": "text",
+        "value": "d)   22,0"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Dados: V0=2cm3; γ=11×10−4; A=1×10−2cm2; θ0=30°C; θ=80°C."
+      },
+      {
+        "type": "text",
+        "value": "Aplicando a expressão da dilatação volumétrica:"
+      },
+      {
+        "type": "text",
+        "value": "ΔV=V0γθ−θ0⇒Ah=V0γθ−θ0⇒h=V0γθ−θ0A=2⋅11×10−4(80−30)1×10−2⇒h=11 cm."
+      }
+    ]
+  },
+  {
+    "id": "DIL-20",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 20,
+    "origem_declarada": "Epcar (Afa)/2015",
+    "id_banco_declarado": "142677",
+    "dificuldade_declarada": "Média",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Afirmações sobre sólidos e líquidos",
+    "tema": "Dilatação geral",
+    "raciocinio": "Julgar água, orifício, transbordamento e semelhança",
+    "tipo_de_pratica": "Múltipla escolha por soma; conceitual",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "D",
+    "pendencia": "Manter numeração 01 a 06 como está; revisar descrição do triângulo e simplificações sobre choque térmico.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "D",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Epcar (Afa))  Com relação à dilatação dos sólidos e líquidos isotrópicos, analise as proposições a seguir e dê como resposta a soma dos números associados às afirmações corretas."
+      },
+      {
+        "type": "text",
+        "value": "(01) Um recipiente com dilatação desprezível contém certa massa de água na temperatura de 1 C  °, quando é, então, aquecido lentamente, sofrendo uma variação de temperatura de 6°C. Nesse caso, o volume da água primeiro aumenta e depois diminui."
+      },
+      {
+        "type": "text",
+        "value": "(02) Quando se aquece uma placa metálica que apresenta um orifício, verifica-se que, com a dilatação da placa, a área do orifício aumenta."
+      },
+      {
+        "type": "text",
+        "value": "(03) Quando um frasco completamente cheio de líquido é aquecido, este transborda um pouco. O volume de líquido transbordado mede a dilatação absoluta do líquido."
+      },
+      {
+        "type": "text",
+        "value": "(04) O vidro pirex apresenta maior resistência ao choque térmico do que o vidro comum porque tem menor coeficiente de dilatação térmica do que o vidro comum."
+      },
+      {
+        "type": "text",
+        "value": "(05) Sob pressão normal, quando uma massa de água é aquecida de 0°C até 100°C sua densidade sempre aumenta."
+      },
+      {
+        "type": "text",
+        "value": "(06) Ao se elevar a temperatura de um sistema constituído por três barras retas e idênticas de ferro interligadas de modo a formarem um triângulo isósceles, os ângulos internos desse triângulo não se alteram."
+      },
+      {
+        "type": "text",
+        "value": "a)   07."
+      },
+      {
+        "type": "text",
+        "value": "b)   10."
+      },
+      {
+        "type": "text",
+        "value": "c)   11."
+      },
+      {
+        "type": "text",
+        "value": "d)   12."
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Análise de cada afirmativa:"
+      },
+      {
+        "type": "text",
+        "value": "[01]  (Falsa) A água sofre uma dilatação anômala, pois de 0°C até 4°C o seu volume diminui (temperatura de maior densidade da água). Além dos 4°C, o volume começa a aumentar de acordo como a maioria das substâncias se comporta com o aumento da temperatura."
+      },
+      {
+        "type": "text",
+        "value": "[02]  (Verdadeira)  O orifício da placa se comporta como se fosse feito com o mesmo material da placa, portanto também se dilata, aumentando sua área."
+      },
+      {
+        "type": "text",
+        "value": "[03]  (Falsa)  O volume de líquido transbordado mede a dilatação aparente do líquido, já que a dilatação absoluta é dada pela dilatação do frasco mais o volume do líquido transbordado."
+      },
+      {
+        "type": "text",
+        "value": "[04]  (Verdadeira)  Quanto menor coeficiente de dilatação térmica, menor é a dilatação térmica e maior a resistência ao choque térmico."
+      },
+      {
+        "type": "text",
+        "value": "[05]  (Falsa)  De 0°C até 4°C a densidade da água aumenta."
+      },
+      {
+        "type": "text",
+        "value": "[06]  (Verdadeira)  A dilatação depende do material, do comprimento inicial e da diferença de temperatura. Como, neste caso, temos o mesmo material e mesma variação de temperatura, as dimensões dilatadas serão proporcionais e os ângulos internos do triângulo isósceles serão iguais."
+      },
+      {
+        "type": "text",
+        "value": "Soma das alternativas verdadeiras é:"
+      },
+      {
+        "type": "text",
+        "value": "02 + 04 + 06 = 12."
+      }
+    ]
+  },
+  {
+    "id": "DIL-21",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 21,
+    "origem_declarada": "Efomm/2023",
+    "id_banco_declarado": "228732",
+    "dificuldade_declarada": "Média",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Altura constante em tubo aquecido",
+    "tema": "Dilatação de líquidos",
+    "raciocinio": "Comparar expansão do líquido com área da seção",
+    "tipo_de_pratica": "Conceitual; álgebra",
+    "dependencia_visual": "Sem figura",
+    "gabarito_no_material": "C",
+    "pendencia": "Explicitar aproximação de primeira ordem e significado local de beta.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "C",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Efomm)  Considere um tubo cilíndrico feito com um material de coeficiente de dilatação linear α  com um líquido de coeficiente de dilatação volumétrica β."
+      },
+      {
+        "type": "text",
+        "value": "Quanto vale a razão α/β, para que, após um aquecimento do conjunto por 1°C, a altura do líquido dentro do cilindro seja mantida?"
+      },
+      {
+        "type": "text",
+        "value": "a)   2"
+      },
+      {
+        "type": "text",
+        "value": "b)   1"
+      },
+      {
+        "type": "text",
+        "value": "c)   1/2"
+      },
+      {
+        "type": "text",
+        "value": "d)   1/3"
+      },
+      {
+        "type": "text",
+        "value": "e)   1/4"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "Para que a altura do líquido seja mantida, devemos ter:"
+      },
+      {
+        "type": "text",
+        "value": "Vtubo=VlíqAtuboh=AlíqhA0(1+2α⋅1)=A0(1+β⋅1)2α=β∴αβ=12"
+      }
+    ]
+  },
+  {
+    "id": "DIL-22",
+    "arquivo": "MISTO - Dilatação.docx",
+    "numero_no_arquivo": 22,
+    "origem_declarada": "Uece/2016",
+    "id_banco_declarado": "162159",
+    "dificuldade_declarada": "Média",
+    "formato_declarado": "Múltipla escolha",
+    "resumo": "Unidade do coeficiente",
+    "tema": "Unidades e escalas",
+    "raciocinio": "Identificar dimensão do coeficiente",
+    "tipo_de_pratica": "Conceitual",
+    "dependencia_visual": "Imagem na solução",
+    "gabarito_no_material": "A",
+    "pendencia": "Comentário informa K⁻¹ e escolhe A por falta de opções; conferir original antes de liberar.",
+    "verificacao": "Inventariado; fonte original e resolução ainda não homologadas",
+    "answer": "A",
+    "prompt": [
+      {
+        "type": "text",
+        "value": "(Uece)  Considerando a unidade de medida de temperatura o grau Celsius, a unidade de medida do coeficiente de dilatação térmica no Sistema Internacional de Unidades é"
+      },
+      {
+        "type": "text",
+        "value": "a)  °C−1."
+      },
+      {
+        "type": "text",
+        "value": "b)  m×°C−1."
+      },
+      {
+        "type": "text",
+        "value": "c)  (m×°C)−1."
+      },
+      {
+        "type": "text",
+        "value": "d)  m−1×°C."
+      },
+      {
+        "type": "text",
+        "value": "Gabarito"
+      }
+    ],
+    "solution": [
+      {
+        "type": "text",
+        "value": "A expressão da dilatação térmica linear é:"
+      },
+      {
+        "type": "text",
+        "value": "ΔL=L0 α ΔT⇒α=ΔLL0 ΔT."
+      },
+      {
+        "type": "text",
+        "value": "Aplicando as unidades do Sistema Internacional:"
+      },
+      {
+        "type": "image",
+        "src": "assets/questions/dil-22-image27.png"
+      },
+      {
+        "type": "text",
+        "value": "Por falta de opções, adota-se a alternativa [A]."
+      }
+    ]
+  }
+]
