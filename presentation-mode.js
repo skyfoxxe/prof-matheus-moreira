@@ -107,7 +107,7 @@ MM.initExercisePage=root=>{
       const id=stage.querySelector('.original-question')?.dataset.id;
       const q=(MM.originalQuestions||[]).find(item=>item.id===id);
       const out=stage.querySelector('.presentation-answer');
-      out.innerHTML=`<strong>Alternativa ${q?.answer||'em revisão'}</strong>`;
+      out.innerHTML=q?.answer?`<strong>Alternativa ${q.answer}</strong>`:'<strong>Resposta comentada</strong><p>Compare o caminho construído pela turma com a explicação abaixo.</p>';
       out.hidden=false;
       const solution=stage.querySelector('.original-solution');
       if(solution){solution.hidden=false;solution.open=true;}

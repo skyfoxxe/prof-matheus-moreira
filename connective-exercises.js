@@ -3,7 +3,13 @@
 const MM=window.MM;
 const previousPage=MM.exercisePage;
 const previousInit=MM.initExercisePage;
-const activities=`<section class="connective-practice" data-connective-practice>
+const connectiveIds=['CON-01','CON-02','CON-03','CON-04','CON-05','CON-06'];
+MM.classLists=MM.classLists||[];
+if(!MM.classLists.some(list=>list.id==='aula-conectivos-01'))MM.classLists.push({id:'aula-conectivos-01',title:'Trabalhadas na aula — Conectivos',description:'Seis oficinas para comparar efeitos, investigar incoerências, reorganizar argumentos e revisar a própria escrita.',chapter:'conectivos',questionIds:connectiveIds,pendingSlots:0});
+const connectiveLesson=(MM.lessons||[]).find(item=>item.id==='conectivos');
+if(connectiveLesson?.slides?.length){const last=connectiveLesson.slides.at(-1);if(!last.html.includes('aula-conectivos-01'))last.html+=`<aside class="chapter-exercise-cta"><p class="eyebrow">Próximo passo</p><h2>Leve as relações de sentido para a lousa</h2><p>A lista reúne seis propostas para completar, comparar, investigar, ordenar, transformar e reescrever textos.</p><a class="primary" href="#exercicios" data-class-list-link="aula-conectivos-01">Abrir a lista de Conectivos</a></aside>`;}
+document.addEventListener('click',event=>{const link=event.target.closest('[data-class-list-link="aula-conectivos-01"]');if(link)sessionStorage.setItem('mm-pending-class-list','aula-conectivos-01')});
+const activities=`<section class="connective-practice" data-connective-practice hidden>
  <header class="connective-practice-head"><div><p class="eyebrow">Linguagens · laboratório interativo</p><h2>Conectivos em ação</h2><p>Aqui você não procura apenas uma alternativa correta. Em cada oficina, mexa no texto, observe o efeito da mudança e explique a relação construída.</p></div><div class="connective-progress"><strong data-progress>0 de 6</strong><span>oficinas exploradas</span></div></header>
  <nav class="connective-practice-nav" aria-label="Oficinas de conectivos">
   ${['Complete o caminho','Compare efeitos','Caça ao erro','Organize o parágrafo','Inverta a relação','Reescreva'].map((x,i)=>`<button data-open-activity="${i}" ${i===0?'class="is-active" aria-current="step"':''}><span>${i+1}</span>${x}</button>`).join('')}
@@ -25,6 +31,9 @@ const activities=`<section class="connective-practice" data-connective-practice>
 
 MM.exercisePage=()=>previousPage().replace('<section class="recurrence">',activities+'<section class="recurrence">');
 MM.initExercisePage=root=>{previousInit(root);const lab=root.querySelector('[data-connective-practice]');if(!lab)return;
+ const subject=root.querySelector('#oq-subject'),bank=root.querySelector('.original-bank');
+ const syncSubject=()=>{const active=subject?.value==='Conectivos';lab.hidden=!active;if(bank)bank.hidden=active;};
+ subject?.addEventListener('change',()=>queueMicrotask(syncSubject));root.querySelector('.original-filters')?.addEventListener('reset',()=>setTimeout(syncSubject));root.querySelectorAll('[data-exercise-mode]').forEach(button=>button.addEventListener('click',()=>queueMicrotask(syncSubject)));syncSubject();
  const completed=new Set(),progress=lab.querySelector('[data-progress]');
  const finish=n=>{completed.add(String(n));progress.textContent=`${completed.size} de 6`;};
  const open=n=>{lab.querySelectorAll('[data-activity]').forEach(x=>x.hidden=x.dataset.activity!==String(n));lab.querySelectorAll('[data-open-activity]').forEach(x=>{const active=x.dataset.openActivity===String(n);x.classList.toggle('is-active',active);active?x.setAttribute('aria-current','step'):x.removeAttribute('aria-current');});};
